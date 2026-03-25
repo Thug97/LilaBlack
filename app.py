@@ -214,4 +214,5 @@ else:
     st.info("No data available.")
 
 st.markdown("---")
+st.markdown("<p style='text-align: center; color: grey;'>Created by Adithya</p>", unsafe_allow_html=True)
 st.markdown("**Deployment Note:** To share this tool online via a shareable link, push this folder to a GitHub repository, open [Streamlit Community Cloud](https://share.streamlit.io/), and click '**Deploy an app**'. Select `app.py` from your repository, and it will be instantly hosted for free!")
